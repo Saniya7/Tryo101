@@ -1,0 +1,124 @@
+/* Style the header */
+.header {
+    padding: 80px;
+    text-align: center;
+    background: #0f9efb;
+    color: white;
+  }
+  
+  /* Increase the font size of the h1 element */
+  .header h1 {
+    font-size: 40px;
+  }
+
+
+  /* Style the top navigation bar */
+.navbar {
+  overflow: hidden; /* Hide overflow */
+  background-color: #333; /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left; /* Make sure that the links stay side-by-side */
+  display: block; /* Change the display to block, for responsive reasons (see below) */
+  color: white; /* White text color */
+  text-align: center; /* Center the text */
+  padding: 14px 20px; /* Add some padding */
+  text-decoration: none; /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right; /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd; /* Grey background color */
+  color: black; /* Black text color */
+}
+
+.footer {
+    overflow: hidden; /* Hide overflow */
+    background-color: #333; /* Dark background color */
+  }
+
+  .footer a {
+    float: left; /* Make sure that the links stay side-by-side */
+    display: block; /* Change the display to block, for responsive reasons (see below) */
+    color: white; /* White text color */
+    align-items: center; /* Center the text */
+    padding: 14px 20px; /* Add some padding */
+    text-decoration: none; /* Remove underline */
+  }
+
+  
+.midsection {
+
+  
+    background-color: #333; /* Dark background color */
+    border: 0px solid;
+    margin: 25px 100px;
+    border-radius: 50px;
+   
+    
+    
+    }
+    .logindiv,.logintext{
+      position:relative;
+      text-align: center;
+    }
+
+    .logintext{
+      color: #fff;
+      font-style: italic;
+      font: 400 22px/45px Axiforma, Arial, serif;
+      position: relative;
+      font-style: italic;
+    }
+
+    .featuresmaindiv{
+      background: #7b68ee;
+    }
+
+    .features{
+
+      background: #7b68ee;
+      border: 0px solid ;
+     
+      text-align: center;
+      font: 800 50px/69px Axiforma, Arial, serif;
+      color: #fff;
+
+    }
+    
+    .feature2,.feature1,.feature3{
+      position:relative;
+      text-align: center;
+    }
+
+    .feaure1text,.feature2text,.feature3text{
+      color: #333;
+    font-style: italic;
+    font: 400 22px/45px Axiforma, Arial, serif;
+    position: relative;
+    font-style: italic;
+    
+    }
+   
+
+   .feature1,.feature2,.feature3{
+    background: #fff;
+    border: 0px solid;
+    margin: 25px 300px;
+    border-radius: 50px;
+    box-shadow: 0 4px 54px rgba(0, 0, 0, .25)
+   }
+
+  
+  
+
+   
+   
+   

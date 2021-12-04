@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+  
+<style>
+body {font-family: Arial, Helvetica, sans-serif;
+	 background-size: cover;
+	background-position: center;
+	position: relative;
+	}
+
+
+/* Full-width input fields */
+input[type=text],input[type=tel],input[type=date],input[type=url] ,input[type=time],input[type=number]{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+#country
+{
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+   background-color: #ddd;
+  outline: none;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=tel]:focus ,input[type=date]:focus input[type=url]:focus input[type=time]:focus,input[type=number]:focus{
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+
+
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  padding-top: 50px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+#logo
+   {
+  
+    font-size: 30px;  
+    font-weight: bold;
+    color: #165397;
+}
+
+
+
+</style>
+</head>
+<body>
+
+  <div class="header">
+    <h1>Project Management made Easy</h1>
+  </div>
+
+
+
+  <form class="modal-content" action="client.php" method="post">
+    <div class="container">
+      <h1>ADD</h1>
+      
+      <hr>
+      <label for="cid"><b>Client Id</b></label>
+      <input type="number" placeholder="Enter Client Id" name="cid">  
+	  
+	  <label for="cname"><b>Client</b></label>
+      <input type="text" placeholder="Enter Client Name" name="cname">
+
+      <label for="lname"><b>Client last name</b></label>
+      <input type="text" placeholder="Enter Client Last Name" name="lname"> 
+      
+      <label for="pdesc"><b>Project Description</b></label>
+      <input type="text" placeholder="Enter Short Project Description" name="pdesc">
+	  
+	  <label for="cdeadline"><b>Expected Project Deadline</b></label>
+      <input type="date" placeholder="Enter Project Deadline Given By Client" name="cdeadline">
+	  
+	  <label for="mobileno"><b>Client Mobile Number</b></label>
+      <input type="tel" placeholder="Enter Mobile Number" name="mobileno" >
+	  
+	  <label for="number"><b>Number of projects</b></label>
+      <input type="number" placeholder="Enter the number of projects the client wants" name="number">
+      
+	  
+       
+      
+        <button type="submit" class="signupbtn">ADD</button>
+      
+    </div>
+  </form>
+
+  <footer class="footer">
+    <a href="#"><i class="fa fa-facebook-official"></i></a>
+    <a href="#"><i class="fa fa-pinterest-p"></i></a>
+    <a href="#"><i class="fa fa-twitter"></i></a>
+    <a href="#"><i class="fa fa-flickr"></i></a>
+    <a href="#"><i class="fa fa-linkedin"></i></a>
+  </footer>
+
+
+</body>
+</html>
+
+​
